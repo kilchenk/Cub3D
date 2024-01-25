@@ -3,9 +3,9 @@ WE ./sprites/walll.xpm
 EA ./sprites/walll.xpm
 SO ./sprites/walll.xpm
 
-M ./music/greenpath.mp3
+M ./music/ghetto.mp3
 S ./sprites/firetrash.xpm
-F ./sprites/floor.xpm
+F ./sprites/ggfloor.xpm
 C ./sprites/sky.xpm
 
 111111111111111111111111
