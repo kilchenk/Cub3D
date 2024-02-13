@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   map_check_utils.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alappas <alappas@student.42wolfsburg.de    +#+  +:+       +#+        */
+/*   By: emirzaza <emirzaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/19 03:43:30 by alappas           #+#    #+#             */
-/*   Updated: 2024/01/20 16:17:43 by alappas          ###   ########.fr       */
+/*   Created: 2024/01/19 03:43:30 by kilchenk          #+#    #+#             */
+/*   Updated: 2024/02/02 19:12:53 by emirzaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,17 +16,17 @@ int	check_char(char map, int i)
 {
 	if (i == 0)
 	{
-		if (ft_strchr("NEWS012D", map))
+		if (ft_strchr("NEWS012DO", map))
 			return (1);
 	}
 	if (i == 1)
 	{
-		if (ft_strchr("NEWS012D ", map))
+		if (ft_strchr("NEWS012DO ", map))
 			return (1);
 	}
 	if (i == 2)
 	{
-		if (ft_strchr("NEWS012D \n", map))
+		if (ft_strchr("NEWS012DO \n", map))
 			return (1);
 	}
 	return (0);
@@ -45,13 +45,13 @@ int	error_walls_helper(t_game *game, size_t x, int y)
 	char	**map;
 
 	map = game->map;
-	if (ft_strchr("NEWS02D", game->map[y][x]))
+	if (ft_strchr("NEWS02DO", game->map[y][x]))
 	{
 		if (ft_strchr("NEWS", game->map[y][x]))
 			init_player(game, x, y);
 		if (game->map[y][x] == '2')
 			game->sprite_index++;
-		if (game->map[y][x] == 'D')
+		if (game->map[y][x] == 'D' || game->map[y][x] == 'O')
 			game->door_index++;
 		if (y - 1 < 0 || (int)x - 1 < 0 || !map[y - 1] || !map[y + 1]
 			|| ft_strlen(map[y - 1]) <= x
@@ -82,7 +82,7 @@ int	error_string_helper(char **map, int i)
 		&& ft_strncmp(map[i], "WE ", 3) && ft_strncmp(map[i], "EA ", 3)
 		&& ft_strncmp(map[i], "F ", 2) && ft_strncmp(map[i], "C ", 2)
 		&& ft_strncmp(map[i], "S ", 2) && ft_strncmp(map[i], "M ", 2)
-		&& ft_strncmp(map[i], "D ", 2))
+		&& ft_strncmp(map[i], "D ", 2) && ft_strncmp(map[i], "S2 ", 3))
 		return (1);
 	return (0);
 }

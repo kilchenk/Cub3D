@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alappas <alappas@student.42wolfsburg.de    +#+  +:+       +#+        */
+/*   By: emirzaza <emirzaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/05/25 20:06:14 by alappas           #+#    #+#             */
-/*   Updated: 2023/05/25 22:52:17 by alappas          ###   ########.fr       */
+/*   Created: 2023/05/25 20:06:14 by kilchenk          #+#    #+#             */
+/*   Updated: 2024/02/02 19:12:53 by emirzaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   key_rotation.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alappas <alappas@student.42wolfsburg.de    +#+  +:+       +#+        */
+/*   By: emirzaza <emirzaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/19 02:35:53 by alappas           #+#    #+#             */
-/*   Updated: 2024/01/19 03:07:28 by alappas          ###   ########.fr       */
+/*   Created: 2024/01/19 02:35:53 by kilchenk          #+#    #+#             */
+/*   Updated: 2024/02/02 19:12:53 by emirzaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

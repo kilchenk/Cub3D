@@ -4,7 +4,8 @@ EA ./sprites/walll.xpm
 SO ./sprites/walll.xpm
 
 M ./music/ghetto.mp3
-S ./sprites/firetrash.xpm
+S ./sprites/firetrash1.xpm
+S2 ./sprites/firetrash2.xpm
 F ./sprites/ggfloor.xpm
 C ./sprites/sky.xpm
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   raycast_bonus.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alappas <alappas@student.42wolfsburg.de    +#+  +:+       +#+        */
+/*   By: emirzaza <emirzaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/19 16:06:26 by alappas           #+#    #+#             */
-/*   Updated: 2024/01/20 06:02:54 by alappas          ###   ########.fr       */
+/*   Created: 2024/01/19 16:06:26 by kilchenk          #+#    #+#             */
+/*   Updated: 2024/02/02 19:12:53 by emirzaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

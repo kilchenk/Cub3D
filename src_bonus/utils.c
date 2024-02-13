@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alappas <alappas@student.42wolfsburg.de    +#+  +:+       +#+        */
+/*   By: emirzaza <emirzaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/17 20:18:05 by alappas           #+#    #+#             */
-/*   Updated: 2024/01/19 20:20:04 by alappas          ###   ########.fr       */
+/*   Created: 2023/12/17 20:18:05 by kilchenk          #+#    #+#             */
+/*   Updated: 2024/02/02 19:12:53 by emirzaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,4 +48,12 @@ unsigned int	get_pixel(t_img *img, int x, int y)
 
 	dst = img->addr + (y * img->line_length + x * (img->bits_per_pixel / 8));
 	return (*(unsigned int *)dst);
+}
+
+uint64_t	time_now(void)
+{
+	struct timeval	tp;
+
+	gettimeofday(&tp, NULL);
+	return (tp.tv_sec);
 }

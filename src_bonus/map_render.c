@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   map_render.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alappas <alappas@student.42wolfsburg.de    +#+  +:+       +#+        */
+/*   By: emirzaza <emirzaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/16 22:18:31 by alappas           #+#    #+#             */
-/*   Updated: 2024/01/20 17:39:45 by alappas          ###   ########.fr       */
+/*   Created: 2023/12/16 22:18:31 by kilchenk          #+#    #+#             */
+/*   Updated: 2024/02/02 19:12:53 by emirzaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,10 @@ void	map_alloc(t_game *game)
 	image_paste(game, game->floor, ++i);
 	image_paste(game, game->ceiling, ++i);
 	if (game->barrel != NULL && game->sprite_index > 0)
+	{
 		image_paste(game, game->barrel, ++i);
+		image_paste(game, game->barrel2, ++i);
+	}
 	if (game->door != NULL && game->door_index > 0)
 	{
 		image_paste(game, game->door, ++i);

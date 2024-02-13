@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils2.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alappas <alappas@student.42wolfsburg.de    +#+  +:+       +#+        */
+/*   By: emirzaza <emirzaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/20 17:07:29 by alappas           #+#    #+#             */
-/*   Updated: 2024/01/20 19:15:12 by alappas          ###   ########.fr       */
+/*   Created: 2024/01/20 17:07:29 by kilchenk          #+#    #+#             */
+/*   Updated: 2024/02/02 19:12:53 by emirzaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,6 +92,7 @@ void	sprite_parse(t_game *game)
 	game->floor = sprite_alloc(game, "F ", 2);
 	game->ceiling = sprite_alloc(game, "C ", 2);
 	game->barrel = sprite_alloc(game, "S ", 2);
+	game->barrel2 = sprite_alloc(game, "S2 ", 3);
 	game->music = sprite_alloc(game, "M ", 2);
 	game->door = sprite_alloc(game, "D ", 2);
 	if (game->barrel == NULL && game->sprite_index > 0)

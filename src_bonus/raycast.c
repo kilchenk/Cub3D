@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   raycast.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alappas <alappas@student.42wolfsburg.de    +#+  +:+       +#+        */
+/*   By: emirzaza <emirzaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/19 02:39:22 by alappas           #+#    #+#             */
-/*   Updated: 2024/01/20 18:47:38 by alappas          ###   ########.fr       */
+/*   Created: 2024/01/19 02:39:22 by kilchenk          #+#    #+#             */
+/*   Updated: 2024/02/02 19:12:53 by emirzaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,12 @@ void	rayhit_assist(t_game *game, t_raycast *rc)
 	{
 		rc->wall_type = rc->door_i;
 		if (rc->wall_dist < 0.5 && game->key_e)
-			game->map[rc->map_y][rc->map_x] = '0';
+			game->map[rc->map_y][rc->map_x] = 'O';
+	}
+	if (game->map[rc->map_y][rc->map_x] == 'O')
+	{
+		if (rc->wall_dist < 1 && game->key_q)
+			game->map[rc->map_y][rc->map_x] = 'D';
 	}
 }
 

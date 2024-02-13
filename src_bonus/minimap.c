@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   minimap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alappas <alappas@student.42wolfsburg.de    +#+  +:+       +#+        */
+/*   By: emirzaza <emirzaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/18 21:21:16 by alappas           #+#    #+#             */
-/*   Updated: 2024/01/20 17:38:24 by alappas          ###   ########.fr       */
+/*   Created: 2024/01/18 21:21:16 by kilchenk          #+#    #+#             */
+/*   Updated: 2024/02/02 19:12:53 by emirzaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,8 @@ void	draw_screen(t_game *game)
 				put_mini_pixel(game, point, 0xFFFFFF);
 			else if (game->map[point.y][point.x] == 'D')
 				put_mini_pixel(game, point, 0x0000FF);
+			else if (game->map[point.y][point.x] == 'O')
+				put_mini_pixel(game, point, 0xFFFF00);
 			else if (game->map[point.y][point.x] == '0'
 				|| ft_strchr("NEWS2", game->map[point.y][point.x]))
 				put_mini_pixel(game, point, 0x000000);

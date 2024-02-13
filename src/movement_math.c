@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   movement_math.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alappas <alappas@student.42wolfsburg.de    +#+  +:+       +#+        */
+/*   By: emirzaza <emirzaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/19 02:36:16 by alappas           #+#    #+#             */
-/*   Updated: 2024/01/19 03:06:59 by alappas          ###   ########.fr       */
+/*   Created: 2024/01/19 02:36:16 by kilchenk          #+#    #+#             */
+/*   Updated: 2024/02/02 19:12:53 by emirzaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

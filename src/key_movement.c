@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   key_movement.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: alappas <alappas@student.42wolfsburg.de    +#+  +:+       +#+        */
+/*   By: emirzaza <emirzaza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/19 02:36:44 by alappas           #+#    #+#             */
-/*   Updated: 2024/01/20 19:16:04 by alappas          ###   ########.fr       */
+/*   Created: 2024/01/19 02:36:44 by kilchenk          #+#    #+#             */
+/*   Updated: 2024/02/02 19:12:53 by emirzaza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
