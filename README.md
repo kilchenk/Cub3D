@@ -1,5 +1,9 @@
 # cub3D Project README
 
+<p align="center">
+  <img src="art/cub3d.png" alt="Cub3d 42 project badge"/>
+</p>
+
 Welcome to cub3D, your first RayCaster with miniLibX!
 
 ## Introduction
@@ -13,7 +17,7 @@ and implement a graphical design of the legendary video game Wolfenstein 3D
 
 ## CUB3D MANDATORY PART
 
-<img src="./mandatory.gif" width="900" height="500"/>
+<img src="art/mandatory.gif" width="900" height="500"/>
 
 For the mandatory part the task was to implement raycasting with different walls
 when facing a different cardinal direction. Ceiling and floor are being drawn just
@@ -23,11 +27,11 @@ by the color stated in the map file.
 
 /cub3D_bonus maps/sreet.cub
 
-<img src="./fire.gif" width="900" height="500"/>
+<img src="art/fire.gif" width="900" height="500"/>
 
 ./cub3D_bonus maps/map_bonus.cub
 
-<img src="./forest.gif" width="900" height="500"/>
+<img src="art/forest.gif" width="900" height="500"/>
 
 In the bonus part I have implemented animated sprites, minimap, mouse, textured drawing of floor and ceiling
 as well as the possibility to draw sky. Moreover, there is a possibility of adding
@@ -41,3 +45,6 @@ Check out the examples provided in the project documentation for visual represen
 ## COMPATIBILITY
 
 Currently compatible with MacOS only.
+
+---
+Made by kilchenk: kilchenk@student.42wolfsburg.de | LinkedIn: [kilchenk](https://www.linkedin.com/in/kyrylo-ilchenko/)
